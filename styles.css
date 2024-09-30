@@ -1,0 +1,162 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Container geral */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+/* Seção Principal */
+.principal {
+    text-align: center;
+    background-color: #20232a;
+    color: white;
+    padding: 4rem 2rem;
+    border-radius: 12px;
+}
+
+.container__titulo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.container__imagem {
+    max-width: 100%;
+    height: auto;
+    margin: 2rem 0;
+}
+
+.container__botao {
+    display: inline-block;
+    background-color: #ff9900;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 1rem 1rem;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+}
+
+.container__botao:hover {
+    background-color: #cc7a00;
+}
+
+.botao_secundario {
+    background-color: #555;
+}
+
+.container__aviso {
+    font-size: 0.875rem;
+    margin-top: 1rem;
+    color: #ccc;
+}
+
+/* Seção Secundária */
+.secundario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin: 2rem 0;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.secundario__imagem {
+    max-width: 48%;
+    border-radius: 8px;
+}
+
+.container__descricao {
+    max-width: 48%;
+}
+
+.descricao__titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.descricao__texto {
+    font-size: 1.125rem;
+    line-height: 1.75;
+    color: #555;
+}
+
+/* Seção de dispositivos */
+.dispositivos {
+    text-align: center;
+    background-color: #f0f0f5;
+    padding: 3rem 0;
+    border-radius: 12px;
+}
+
+.dispositivos__titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2.5rem;
+}
+
+.lista__item {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 0.75rem;
+}
+
+.lista__item img {
+    max-width: 60px;
+    height: auto;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #222;
+    color: #ccc;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.rodape__logo {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+.rodape__lista {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.lista__link a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 0.875rem;
+}
+
+.lista__link a:hover {
+    color: white;
